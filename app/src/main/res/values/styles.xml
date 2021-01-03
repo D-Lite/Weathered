@@ -13,4 +13,5 @@
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:textColor">#ffffff</item>
     </style>
+    
 </resources>
