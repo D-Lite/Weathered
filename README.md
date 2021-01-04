@@ -13,4 +13,9 @@ Initial version was created on 1/3/2021.
 Subsequent versions to follow.
 
 
-$ git checkout --orphan version1.1
+ I am happy to announced that version 1.1 is out  1/4/2021
+ With major improvements like:
+ Splash screen
+ Page redesign
+ A new location
+ Material UI inclusion
