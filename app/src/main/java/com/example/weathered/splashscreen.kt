@@ -17,7 +17,7 @@ class splashscreen : AppCompatActivity() {
 
 
           val continuebtn = findViewById<Button>(R.id.continueBtn)
-          continuebtn.layoutParams =  LinearLayout.LayoutParams(400, 200)
+//          continuebtn.layoutParams =  LinearLayout.LayoutParams(400, 200)
 
         continuebtn.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
