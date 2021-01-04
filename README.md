@@ -12,5 +12,4 @@ Daniel O.
 Initial version was created on 1/3/2021.
 Subsequent versions to follow.
 
-
-$ git checkout --orphan version1.1
+Version 1.1 is out!!! 1/4/2021
