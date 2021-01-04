@@ -41,7 +41,9 @@
 
         <com.google.android.material.button.MaterialButton
             style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-
+            app:icon="@drawable/continue.png"
+            app:strokeWidth="3dp"
+            app:strokeColor="#ff6801"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:clickable="true"
