@@ -23,7 +23,7 @@
             android:layout_marginBottom="200dp"
             android:text="Weather Check"
             android:textSize="40dp"
-            android:textColor="#00D054"
+            android:textColor="#04232A"
             android:textAlignment="center"
             android:textStyle="italic"
             android:fontFamily="sans-serif-black"
@@ -39,32 +39,32 @@
             android:layout_height="200dp"
             />
 
-        <com.google.android.material.button.MaterialButton
-            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
-            app:icon="@drawable/continue.png"
-            app:strokeWidth="3dp"
-            app:strokeColor="#ff6801"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:clickable="true"
-            android:id="@+id/continueBtn"
-            android:text="Continue"
-            android:textColor="#000000"
-            android:visibility="visible"
-            android:textSize="30dp"
-        />
-
-<!--        <Button-->
+<!--        <com.google.android.material.button.MaterialButton-->
+<!--            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"-->
+<!--            app:icon="@drawable/continueicon"-->
+<!--            app:strokeWidth="3dp"-->
+<!--            app:strokeColor="#ff6801"-->
 <!--            android:layout_width="wrap_content"-->
 <!--            android:layout_height="match_parent"-->
-<!--            android:background="@drawable/continuebtn"-->
 <!--            android:clickable="true"-->
 <!--            android:id="@+id/continueBtn"-->
 <!--            android:text="Continue"-->
 <!--            android:textColor="#000000"-->
 <!--            android:visibility="visible"-->
 <!--            android:textSize="30dp"-->
-<!--            />-->
+<!--        />-->
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/continuebtn"
+            android:clickable="true"
+            android:id="@+id/continueBtn"
+            android:text="Continue"
+            android:textColor="#000000"
+            android:visibility="visible"
+            android:textSize="30dp"
+            />
 
 
     </LinearLayout>
