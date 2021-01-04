@@ -3,16 +3,8 @@ package com.example.weathered
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.os.AsyncTask
-import android.view.View
 import android.widget.Button
-import android.widget.ProgressBar
-import android.widget.RelativeLayout
-import android.widget.TextView
-import org.json.JSONObject
-import java.net.URL
-import java.text.SimpleDateFormat
-import java.util.*
+import android.widget.LinearLayout
 
 
 class splashscreen : AppCompatActivity() {
@@ -23,7 +15,9 @@ class splashscreen : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_splashscreen)
 
-        val continuebtn = findViewById<Button>(R.id.continueBtn)
+
+          val continuebtn = findViewById<Button>(R.id.continueBtn)
+          continuebtn.layoutParams =  LinearLayout.LayoutParams(400, 150)
 
         continuebtn.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
@@ -32,4 +26,3 @@ class splashscreen : AppCompatActivity() {
     }
 
 }
-

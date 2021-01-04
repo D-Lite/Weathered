@@ -39,15 +39,30 @@
             android:layout_height="200dp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton.Icon"
+
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@drawable/continuebtn"
+            android:layout_height="match_parent"
             android:clickable="true"
             android:id="@+id/continueBtn"
             android:text="Continue"
             android:textColor="#000000"
-            android:visibility="visible" />
+            android:visibility="visible"
+            android:textSize="30dp"
+        />
+
+<!--        <Button-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:background="@drawable/continuebtn"-->
+<!--            android:clickable="true"-->
+<!--            android:id="@+id/continueBtn"-->
+<!--            android:text="Continue"-->
+<!--            android:textColor="#000000"-->
+<!--            android:visibility="visible"-->
+<!--            android:textSize="30dp"-->
+<!--            />-->
 
 
     </LinearLayout>
